@@ -12,7 +12,7 @@ One aspect that has been hard to miss in the last three years is the dataficatio
 The goal of this Course Project is to begin taking a look at some of the social aspects of the pandemic by conducting a human centered data science analysis of some available COVID-19 data.
 
 
-# Data Source:
+## Data Source:
 
 The data for this project is extracted has different aspects and way of collection. One source is CDC for county specific information, other John Hopkins with confirmed cases data shared on Kaggle and other is New York Times Survey data.
 
