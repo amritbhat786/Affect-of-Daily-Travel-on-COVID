@@ -20,7 +20,49 @@ Dataset Sources The RAW_us_confirmed_cases.csv file from the Kaggle repository o
 
 
 - [RAW US confirmed cases CSV file from the Kaggle repository of John Hopkins University COVID-19 data](https://www.kaggle.com/datasets/antgoldbloom/covid19-data-from-john-hopkins-university)
+The RAW_us_confirmed_cases.csv file from the Kaggle repository of John Hopkins University COVID-19 data. This data is updated daily. There are no ethical considerations I feel we have to consider with this dataset, as these are the actual cases that were reported publicly. Licensed under Attribution 4.0 International (CC BY 4.0). Overall, this dataset will contain the daily COVID case count, which will act as our dependent variable in the analysis.
+
+| Column name     | Description               |
+| --------------- | ------------------------- |
+| Province\_State | Province or state         |
+| Admin2          | Country                   |
+| UID             | Unique identifier         |
+| iso2            | Unused geography code     |
+| iso3            | Unused geography code     |
+| code3           | Unused geography code     |
+| FIPS            | Unique 5-digit identifier |
+| Lat             | Latitude                  |
+| Long\_          | Longitude                 |
+
+
+- [Trips by Distance - Bureau of Transportation Statistics] (https://data.bts.gov/Research-and-Statistics/Trips-by-Distance/w96p-f2qv)  
+The Trips by Distance dataset to understand daily travel behaviors of people in Cook County, Illinois. The dataset summarizes how many people are staying at home during the COVID-19 pandemic and how far people are traveling when they don’t stay home. It consists of 22 columns out of which I felt 16 relevant for our analysis. This dataset is licensed under [U.S. Government Works] (https://www.usa.gov/government-works). I couldn’t find any information on Terms of Use, however. Data Description of this data can be found in the above link.
+
+
 - [CDC dataset of masking mandates by county](https://www.google.com/url?q=https://data.cdc.gov/Policy-Surveillance/U-S-State-and-Territorial-Public-Mask-Mandates-Fro/62d6-pm5i&sa=D&source=docs&ust=1667551398820431&usg=AOvVaw21FMdhJyclbjdmZW98QUbK)
+
+| Column name                       | Description               |
+| --------------------------------- | ------------------------- |
+| State\_Tribe\_Territory           | State or tribe name       |
+| County\_Name                      | County name               |
+| FIPS\_State                       | Numeric state identifier  |
+| FIPS\_County                      | Numeric county identifier |
+| date                              | YYYY-MM-DD format         |
+| order\_code                       | Order type                |
+| Face\_Masks\_Required\_in\_Public | Boolean identifier        |
+| Source\_of\_Action                | Authority                 |
+| URL                               | URL                       |
+| Citation                          | Citation                  |
+
+
 - [The New York Times mask compliance survey data](https://github.com/nytimes/covid-19-data/tree/master/mask-use)
 
+| Column name | Description                                                     |
+| ----------- | --------------------------------------------------------------- |
+| COUNTYFP    | Numeric state and county identifier                             |
+| NEVER       | Percentage of respondants responding "never" wearing masks      |
+| RARELY      | Percentage of respondants responding "rarely" wearing masks     |
+| SOMETIMES   | Percentage of respondants responding "sometimes" wearing masks  |
+| FREQUENTLY  | Percentage of respondants responding "frequently" wearing masks |
+| ALWAYS      | Percentage of respondants responding "always" wearing masks     |
 
