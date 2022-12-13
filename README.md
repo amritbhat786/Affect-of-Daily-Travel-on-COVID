@@ -66,3 +66,12 @@ This dataset is used to understand daily travel behaviors of people in Cook Coun
 | FREQUENTLY  | Percentage of respondants responding "frequently" wearing masks |
 | ALWAYS      | Percentage of respondants responding "always" wearing masks     |
 
+
+### Intermediate data files
+- Commons-Analysis/data/daily_new_cases_cook_county.csv - Combined data after merging Masking mandate and total cases dataset. 
+| Column name     | Description               |
+| --------------- | ------------------------- |
+| date            | YYYY-MM-DD format         |
+| confirmed_cases | Total confirmed cases     |
+| mask_required   | Flag variable mask mandate|
+| cases           | Daily Active Cases        |
