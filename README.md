@@ -20,7 +20,7 @@ Dataset Sources The RAW_us_confirmed_cases.csv file from the Kaggle repository o
 
 
 - [RAW US confirmed cases CSV file from the Kaggle repository of John Hopkins University COVID-19 data](https://www.kaggle.com/datasets/antgoldbloom/covid19-data-from-john-hopkins-university)
-The RAW_us_confirmed_cases.csv file from the Kaggle repository of John Hopkins University COVID-19 data. This data is updated daily. There are no ethical considerations I feel we have to consider with this dataset, as these are the actual cases that were reported publicly. Licensed under Attribution 4.0 International (CC BY 4.0). Overall, this dataset will contain the daily COVID case count, which will act as our dependent variable in the analysis.
+ This data is updated daily. There are no ethical considerations I feel we have to consider with this dataset, as these are the actual cases that were reported publicly. Licensed under Attribution 4.0 International (CC BY 4.0). Overall, this dataset will contain the daily COVID case count, which will act as our dependent variable in the analysis. **THIS DATA IS NOT INCLUDED IN THIS REPOSITORY AS THE FILESIZE WAS TOO LARGE. PLEASE DOWNLOAD IT DIRECTLY FROM THE LINK LOCALLY**
 
 | Column name     | Description               |
 | --------------- | ------------------------- |
@@ -36,10 +36,10 @@ The RAW_us_confirmed_cases.csv file from the Kaggle repository of John Hopkins U
 
 
 - [Trips by Distance - Bureau of Transportation Statistics] (https://data.bts.gov/Research-and-Statistics/Trips-by-Distance/w96p-f2qv)  
-The Trips by Distance dataset to understand daily travel behaviors of people in Cook County, Illinois. The dataset summarizes how many people are staying at home during the COVID-19 pandemic and how far people are traveling when they don’t stay home. It consists of 22 columns out of which I felt 16 relevant for our analysis. This dataset is licensed under [U.S. Government Works] (https://www.usa.gov/government-works). I couldn’t find any information on Terms of Use, however. Data Description of this data can be found in the above link.
+This dataset is used to understand daily travel behaviors of people in Cook County, Illinois. The dataset summarizes how many people are staying at home during the COVID-19 pandemic and how far people are traveling when they don’t stay home. It consists of 22 columns out of which I felt 16 relevant for our analysis. This dataset is licensed under [U.S. Government Works] (https://www.usa.gov/government-works). I couldn’t find any information on Terms of Use, however. Data Description of this data can be found in the above link. **THIS DATA IS NOT INCLUDED IN THIS REPOSITORY AS THE FILESIZE WAS TOO LARGE. PLEASE DOWNLOAD IT DIRECTLY FROM THE LINK LOCALLY**
 
 
-- [CDC dataset of masking mandates by county](https://www.google.com/url?q=https://data.cdc.gov/Policy-Surveillance/U-S-State-and-Territorial-Public-Mask-Mandates-Fro/62d6-pm5i&sa=D&source=docs&ust=1667551398820431&usg=AOvVaw21FMdhJyclbjdmZW98QUbK)
+- [CDC dataset of masking mandates by county](https://www.google.com/url?q=https://data.cdc.gov/Policy-Surveillance/U-S-State-and-Territorial-Public-Mask-Mandates-Fro/62d6-pm5i&sa=D&source=docs&ust=1667551398820431&usg=AOvVaw21FMdhJyclbjdmZW98QUbK) **THIS DATA IS NOT INCLUDED IN THIS REPOSITORY AS THE FILESIZE WAS TOO LARGE. PLEASE DOWNLOAD IT DIRECTLY FROM THE LINK LOCALLY**
 
 | Column name                       | Description               |
 | --------------------------------- | ------------------------- |
@@ -55,7 +55,7 @@ The Trips by Distance dataset to understand daily travel behaviors of people in 
 | Citation                          | Citation                  |
 
 
-- [The New York Times mask compliance survey data](https://github.com/nytimes/covid-19-data/tree/master/mask-use)
+- [The New York Times mask compliance survey data](https://github.com/nytimes/covid-19-data/tree/master/mask-use) 
 
 | Column name | Description                                                     |
 | ----------- | --------------------------------------------------------------- |
