@@ -69,6 +69,7 @@ This dataset is used to understand daily travel behaviors of people in Cook Coun
 
 ### Intermediate data files
 - Commons-Analysis/data/daily_new_cases_cook_county.csv - Combined data after merging Masking mandate and total cases dataset. 
+
 | Column name     | Description               |
 | --------------- | ------------------------- |
 | date            | YYYY-MM-DD format         |
